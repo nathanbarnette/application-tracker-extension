@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Application Tracker",
+  "description": "Tracks status of your applications through email",
+  "version": "1.0",
+  "icons": {
+    "24": "assets/workIcon.svg"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://developer.chrome.com/*"
+  ],
+  "permissions": [
+    "tabGroups"
+  ]
+}
